@@ -1,0 +1,23 @@
+node_modules
+
+# IntelliJ
+.idea/
+*.ipr
+*.iws
+*.iml
+.idea_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+coverage
+.nyc_output
+
+# Allow web-tester's dist
+!samples/web-tester/dist
+
+# Exclude build outputs (they'll get added automatically by CI).
+dist
+build

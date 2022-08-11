@@ -1,0 +1,40 @@
+{
+  "name": "vuex-obs",
+  "description": "Obs v28, Vuex, Vue",
+  "version": "0.0.1",
+  "main": "dist/",
+  "module": "dist/",
+  "types": "dist/",
+  "keywords": [
+    "vue",
+    "obs",
+    "vuex-plugin"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:BitCoding/vuex-obs.git"
+  },
+  "author": {
+    "name": "Bitcoding",
+    "email": "bitcoding@bitcoding.eu",
+    "url": "https://github.com/j3m5"
+  },
+  "dependencies": {
+    "obs-websocket-js": "^5.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "rollup": "^2.77.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript-paths": "^1.3.1",
+    "typescript": "^4.7.4",
+    "vue": "^2.6.14",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^9.1.2",
+    "vuex": "^3.6.2",
+    "vuex-class": "^0.3.2"
+  }
+}
